@@ -27,6 +27,9 @@ Route::get('/sobre_nos', [AboutUs::class, 'about']);
 
 Route::get('/contato', [Contatc::class, 'contatc']);
 
+Route::post('/contato', [Contatc::class, 'contatc']);
+
+
 Route::prefix('/app')->group(function(){
 
     Route::get('/login', function(){return 'Login';});
