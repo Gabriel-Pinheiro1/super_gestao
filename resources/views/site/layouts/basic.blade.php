@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        @include('site.layouts.partials.header')
         @yield('content')
     </body>
 </html>
