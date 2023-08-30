@@ -1,5 +1,6 @@
 @extends('site.layouts.basic')
 
+@section('titulo', 'home')
 @section('content')
     
 
